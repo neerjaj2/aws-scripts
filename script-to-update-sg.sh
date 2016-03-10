@@ -1,9 +1,9 @@
 et our home directory which holds our ip file
-WORKDIR=/home/ubuntu/scripts/neeraj/apache-url-monitor
+WORKDIR=/home/neeraj/
 
 # set the name of the security group as show in aws console
-SEC_GROUP_ID1="sg-9d47baf9"
-SEC_GROUP_ID2="sg-f7a95593"
+SEC_GROUP_ID1="sg-********"
+SEC_GROUP_ID2="sg-********"
 
 ##### END VARIABLES TO SET ######################
 
