@@ -24,7 +24,7 @@ curl -sLo /usr/local/bin/ep https://github.com/kreuzwerker/envplate/releases/dow
 export HOSTNAME=$HOSTNAME
 export IP=$(ec2metadata --local-ipv4)
 
-cat > /etc/elasticsearch/elasticsearch.yml  << EOF
+cat >> /etc/elasticsearch/elasticsearch.yml  << EOF
   cluster.name: nb-stag-nile-elasticsearch-cluster
   node.name: ${HOSTNAME}
   network.host: ${IP}
